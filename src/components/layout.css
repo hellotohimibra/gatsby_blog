@@ -7,6 +7,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 article,
 aside,
@@ -44,7 +45,9 @@ a {
   -webkit-text-decoration-skip: objects;
   text-decoration: none;
   font-size: 20px;
-  color: #011627;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  color: white;
 }
 a:active,
 a:hover {

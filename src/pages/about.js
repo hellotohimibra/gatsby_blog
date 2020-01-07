@@ -10,7 +10,9 @@ const AboutPage = () => (
       non ex molestias provident quod laboriosam qui.
       <br/>
       <Link to="/">Home</Link>
+      
       </Layout>
+
 
     )
 export default AboutPage;

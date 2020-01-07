@@ -26,7 +26,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+     <header/>
       <Menu/>
 
       <div
@@ -38,12 +38,19 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
       </div>
+
+      <footer style={{
+        backgroundColor: 'red',
+        paddingBottom: '15px',
+        marginTop: '250px'
+
+      }}>
+
+      © {new Date().getFullYear()}, Built with
+      {` `}
+      <a href="https://www.gatsbyjs.org">Gatsby</a>
+    </footer>
     </>
   )
 }
